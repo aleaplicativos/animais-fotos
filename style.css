@@ -1,0 +1,81 @@
+body {
+	background-color: #8A8A8A;
+	overflow: hidden;
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.top {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 10vh;
+}
+.bottom {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 10vh;
+}
+.left {
+	position: fixed;
+	top: 10vh;
+	left: 0px;
+	width: 5vw;
+	bottom: 10vh;
+}
+.right {
+	position: fixed;
+	top: 10vh;
+	right: 0px;
+	width: 5vw;
+	bottom: 10vh;
+}
+.buttox {
+	width: 5vw;
+	height: 100%;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 2vw;
+	background-color: transparent;
+}
+.buttox:hover {
+	background-color:#599055;
+	border-radius: 25px;
+}
+.buttox1:hover {
+	background-color:#599055;
+	border-radius: 25px;
+}
+.buttox1 {
+	width: 5vw;
+	height: 100%;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 2vw;
+	background-color: transparent;
+}
+.tabcontent {
+	display: none;
+	border: none;
+	background-color: #4D684F;
+	position: absolute;
+	top: 10vh;
+	left: 5vw;
+	right: 5vw;
+	bottom: 10vh;
+	z-index: 20;
+	overflow: hidden;
+	border-radius: 25px;
+}
+.tabcontent img {
+	width: 100%;
+	height: 100%;
+}
